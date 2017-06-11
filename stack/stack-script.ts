@@ -4,7 +4,7 @@ import {range} from "../functions/range";
 const stack = new Stack();
 
 const isEmpty = () => console.log(`Emtpy: ${stack.isEmpty()}`);
-const peek = () => console.log(`Last e;ement: ${stack.peek()}`);
+const peek = () => console.log(`Last element: ${stack.peek()}`);
 
 const numbersArray = range(1, 5435);
 isEmpty();
