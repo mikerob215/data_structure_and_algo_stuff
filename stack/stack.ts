@@ -13,6 +13,10 @@ export class Stack<T> {
         this.items = [];
     }
 
+    public size() {
+        return this.items.length;
+    }
+
     public isEmpty(): boolean {
         return this.items.length === 0;
     }

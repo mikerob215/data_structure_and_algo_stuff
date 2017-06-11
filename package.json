@@ -4,11 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "stack": "node stack/stack-script.js"
+    "stack": "node stack/stack-script.js",
+    "test": "jasmine-ts \"./spec/*.spec.ts\""
   },
   "devDependencies": {
     "@types/node": "^7.0.29",
+    "jasmine": "^2.6.0",
+    "jasmine-core": "^2.6.3",
+    "karma": "^1.7.0",
     "ts-node": "^3.0.6",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4",
+    "@types/jasmine": "^2.5.51",
+    "jasmine-ts": "^0.1.3"
   }
 }
