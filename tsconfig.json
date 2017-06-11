@@ -2,9 +2,17 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
-    "sourceMap": true
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "pretty": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": [
+      "es2015",
+      "es7"
+    ]
   },
   "exclude": [
-    "node_modules"
+    "./node_modules"
   ]
 }
