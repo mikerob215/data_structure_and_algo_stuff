@@ -1,5 +1,5 @@
-import {Stack} from "./stack";
-import {range} from "../functions/range";
+import {Stack} from './stack';
+import {range} from '../../functions/range';
 
 const stack = new Stack();
 

@@ -1,6 +1,6 @@
 import 'jasmine';
-import {Stack} from '../stack/stack';
-import {range} from '../functions/range';
+import {Stack} from '../src/data_structures/stack/stack';
+import {range} from '../src/functions/range';
 
 describe('stack', () => {
     let stack: Stack<number>;

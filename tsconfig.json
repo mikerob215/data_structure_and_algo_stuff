@@ -9,6 +9,8 @@
     "noUnusedParameters": true,
     "moduleResolution": "node",
     "inlineSourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
     "lib": [
       "es2015",
       "es7"
