@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "stack": "node stack/stack-script.js",
+    "stack": "node ./src/data_structures/stack/stack-script.js",
     "test": "jasmine-ts \"./spec/*.spec.ts\"",
     "karma": "karma start",
     "yarn": "yarn",
